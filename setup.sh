@@ -1,6 +1,6 @@
 #/bin/bash
 
-git subumodule update --init --recursive
+git submodule update --init --recursive
 
 cd `dirname "$0"`
 cd libs/rttr/
